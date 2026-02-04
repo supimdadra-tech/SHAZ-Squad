@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handmade Haven</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #B0E0E6; /* Powder Blue */
+            color: #333;
+        }
+
+        header {
+            background-color: #6e6e6e; /* Grey */
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #d6eef3; /* Light powder blue shade */
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .products {
+            padding: 40px;
+        }
+
+        .products h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .product-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background-color: #f2f2f2; /* Light grey */
+            width: 250px;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0;
+            color: #444;
+        }
+
+        .product-card p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .product-card button {
+            background-color: #6e6e6e;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product-card button:hover {
+            background-color: #4f4f4f;
+        }
+
+        .about, .contact {
+            padding: 40px;
+            text-align: center;
+            background-color: #eaf6f8;
+        }
+
+        footer {
+            background-color: #6e6e6e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Handmade Haven</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Beautiful Handmade Products</h2>
+    <p>Crafted with love and care</p>
+</section>
+
+<section class="products">
+    <h2>Our Products</h2>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x180" alt="Candle">
+            <h3>Handmade Candle</h3>
+            <p>Natural wax candle with soothing fragrance.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x180" alt="Bag">
+            <h3>Handmade Bag</h3>
+            <p>Eco-friendly and stylish handmade bag.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x180" alt="Jewelry">
+            <h3>Handmade Jewelry</h3>
+            <p>Elegant jewelry crafted by artisans.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>We support local artisans by selling unique handmade products.</p>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: handmadehaven@gmail.com</p>
+    <p>Phone: +91 98765 43210</p>
+</section>
+
+<footer>
+    <p>© 2026 Handmade Haven</p>
+</footer>
+
+</body>
+</html>
